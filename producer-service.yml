@@ -1,4 +1,4 @@
 server:
     port: ${PORT:8890}
-message: Configuracion de productor levantado!
+message: Configuracion de productor en el servidor levantado!
 
