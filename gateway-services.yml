@@ -4,5 +4,5 @@ cloud:
     gateway:
       routes:
         - id: producer-services
-          uri: http://localhost: 8890
+          uri: http://localhost: 8889
 message: Configuracion de Gateway en el servidor levantado!
