@@ -1,0 +1,3 @@
+server:
+    port: ${PORT:8892}
+message: Configuracion de Gateway en el servidor levantado!
