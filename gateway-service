@@ -1,3 +1,11 @@
 server:
     port: ${PORT:8891}
+cloud:
+    gateway:
+       routes:
+          - id: customer-service
+            uri: http://localhost:8889
+          - id: producer-service
+            uri: http://localhost:8890
+
 message: API Gateway levantado
